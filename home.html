@@ -1,9 +1,11 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home</title>
+    <link rel="stylesheet" href="{% static "css/style.css" %}">
 </head>
 <body>
     <!--<h1> This is a heading tag </h1>
@@ -27,7 +29,7 @@
             Consequatur numquam aspernatur eos vel hic?</pre>
 
             <hr> -->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/250px-Taj_Mahal_%28Edited%29.jpeg" alt="Taj Mahal" width="500" height="500">
+            <!--<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/250px-Taj_Mahal_%28Edited%29.jpeg" alt="Taj Mahal" width="500" height="500">
 
             <a href="https://en.wikipedia.org/wiki/Taj_Mahal" target="_blank">click here for Taj Mahal wikipedia</a>
 
@@ -131,15 +133,23 @@
     <br>
     <input type="submit" value="Save">
             
-        </form>
-        <div>
-            <h1>This is a heading</h1>
+        </form>-->
+        <!--<div class="myclass" id = "myclass">
+            <h1 class="myclass">This is a heading</h1>
         </div>
-        <div>
+        <div class="myclass1" id = "myclass1">
             <h2>This is a heading</h2>
         </div>
-        <div>
+        <div class="myclass2" id = "myclass2">
             <h3>This is a heading</h3>
+        </div>-->
+        <div>
+        <div>
+            <img src="{% static "images/logo.png" %}" alt="">
+        </div>
+        <div>
+            <h1>Sarkari Result</h1>
+        </div>
         </div>
     </body>
 </html>
