@@ -1,18 +1,84 @@
-/* {
-    background-color: yellow;
-}
+ /* {
+     background-color: yellow;
+ }*/
 
-div {
-    border: 2px solid red;
-    margin: 20px;
-}
+ /*div {
+     border: 2px solid red;
+     margin: 20px;
+ }
 
- class selector denote by . */
-/*.myclass {
-    background-color: cadetblue;
-}*/
+ /* ID selector denoted by # 
+ #myclass {
+     background-color: crimson;
+ }
 
-/* ID selector denoted by # */
-/*#myclass {
-    background-color: crimson;
-}*/
+ /*class selector denote by . 
+ .myclass {
+     background-color: cadetblue;
+ }*/
+
+ .maindiv {
+     border: 2px solid red;
+     margin: 20px;
+     /*background-color: #ab183d;*/
+     /*background: linear-gradient(red, green, yellow);*/
+     /*background: radial-gradient(red, yellow, blue);*/
+ }
+
+ .secondmaindiv {
+     display: flex;
+     justify-content: space-between;
+     /*color: cornsilk;*/
+
+ }
+
+ h1 {
+     font-size: 100px;
+ }
+
+ /*div {
+     border: 2px solid red;
+
+ }*/
+
+ .childdiv {
+     padding-top: 100px;
+     background-color: red;
+ }
+
+ /*.childdiv:hover {
+     background-color: yellow;
+     /*transform: translate(10px, 20px);
+     width: 100px;
+ }*/
+
+ .childdiv:active {
+     background-color: yellow;
+     /*transform: translate(10px, 20px);*/
+     width: 100px;
+ }
+
+ /*.childdiv {
+     padding-top: 50px;
+     background-color: aqua;
+ }
+
+ /*.childdiv:hover {
+     background-color: yellow;
+     /*transform: translate(10px, 20px);
+ width: 100px;
+ }*/
+
+ .childdiv:active {
+     background-color: yellow;
+     /*transform: translate(10px, 20px);*/
+     width: 100px;
+ }
+
+ div {
+     margin: 20px;
+ }
+
+ /* * {
+     background: url("https://media.istockphoto.com/id/1534040386/photo/an-outdoor-bamboo-gazebo-nestled-amidst-lush-greenery-offering-serene-relaxation-after-a.jpg?s=1024x1024&w=is&k=20&c=puHgSbTQpBTWvqIBd69gDXvBgDwpor6-fdYJoU0Hihc=") no-repeat
+ }*/
